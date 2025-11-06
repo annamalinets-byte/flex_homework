@@ -3,45 +3,34 @@
     <link rel="stylesheet" href="style.css" />
     <title>дз</title>
   </head>
-  <body class="advert">
-    <div class="heading">
-      <p class="heading__text">
-        Для кого подойдет <span class="heading__text_span">TOGOTOP</span>
-      </p>
-    </div>
-    <div class="blocks">
-      <div class="first">
-        <div class="first__images">
-          <img src="Group 24.png" />
-          <img src="Mask group.svg" class="over" />
+  <body class="whole">
+    <form class="form">
+      <h3 class="form__header">БУДЕМ РАДЫ <br><span><span class="form__header_span">ВАШЕМУ</span> ОТЗЫВУ</span></h3>
+      <div class="form__groups">
+        <div class="form__group">
+          <label class="form__label" for="ns">Имя и Фамилия</label>
+          <input id="ns" class="form__input" type="text" placeholder="Александрa Иванова"/>
         </div>
-        <h3 class="first__heading">Новичок</h3>
-        <p class="first__text">
-          Поставщики, производители, владельцы интернет-магазинов, которые
-          планируют расширить каналы сбыта через маркетплейсы.
-        </p>
-      </div>
-      <div class="second">
-        <div class="second__images">
-          <img src="Ellipse 15.png" />
-          <img src="Vector.svg" class="over" />
+        <div class="form__group">
+          <label class="form__label" for="city">Откуда вы</label>
+          <input id="city" class="form__input" type="text" placeholder="Москва"/>
         </div>
-        <p class="second__heading">Действующий селлер</p>
-      </div>
-      <div class="third">
-        <div class="third__images">
-          <img src="Ellipse 15.png" />
-          <img src="Mask group2.svg" class="over" />
+        <div class="form__group">
+          <label class="form__label" for="date">Когда летали (дата)</label>
+          <input id="date" class="form__input" type="text" placeholder="10.10.23"/>
         </div>
-        <p class="third__heading">Менеджер маркетплейса</p>
-      </div>
-      <div class="forth">
-        <div class="forth__images">
-          <img src="Ellipse 15.png" />
-          <img src="Mask group3.svg" class="over" />
+        <div class="form__group">
+          <label class="form__label" for="where">Куда летали (страна и отель)</label>
+          <input id="where" class="form__input" type="text" placeholder="Бали, Hanging Gardens"/>
         </div>
-        <p class="forth__heading">Digital студии и агентства</p>
       </div>
-    </div>
+      <div class="comm">
+        <label class="form__label" for="otzyv">Напишите отзыв</label>
+        <textarea name="otzyv" class="comm__input" placeholder="Текст"></textarea>
+      </div>
+      <div class="b">
+        <button class="form__button">отправить <img src="Group 1145.png"/></button>
+      </div>
+    </form>
   </body>
 </html>
