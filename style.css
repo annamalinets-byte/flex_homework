@@ -76,6 +76,11 @@
   letter-spacing: 0%;
 }
 
+.form__input:focus {
+  height: 50;
+  transition: height 3s ease 2s;
+}
+
 .comm {
   margin-left: 40px;
 }
@@ -98,7 +103,7 @@
   padding-top: 20px;
 }
 
-.b{
+.b {
   display: flex;
   justify-content: center;
 }
@@ -121,4 +126,9 @@
   letter-spacing: 0%;
   text-transform: uppercase;
   margin-top: 20px;
+}
+
+.form__button:hover {
+  width: 270;
+  height: 60;
 }
