@@ -129,6 +129,6 @@
 }
 
 .form__button:hover {
-  width: 270;
-  height: 60;
+background-color: black;
+transition: background-color 2s linear;
 }
