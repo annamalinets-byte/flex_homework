@@ -3,34 +3,41 @@
     <link rel="stylesheet" href="style.css" />
     <title>дз</title>
   </head>
-  <body class="whole">
-    <form class="form">
-      <h3 class="form__header">БУДЕМ РАДЫ <br><span><span class="form__header_span">ВАШЕМУ</span> ОТЗЫВУ</span></h3>
-      <div class="form__groups">
-        <div class="form__group">
-          <label class="form__label" for="ns">Имя и Фамилия</label>
-          <input id="ns" class="form__input" type="text" placeholder="Александрa Иванова"/>
+  <body class="animation">
+    <div class="both">
+      <div class="first">
+        <h3 class="both__head">Buttons</h3>
+        <div class="first__button">
+          <h3>Primary/Primary</h3>
+          <button class="orange" disabled>Normal</button>
         </div>
-        <div class="form__group">
-          <label class="form__label" for="city">Откуда вы</label>
-          <input id="city" class="form__input" type="text" placeholder="Москва"/>
+        <div class="first__button">
+          <h3>Primary/Secondary</h3>
+          <button class="blue">Normal</button>
         </div>
-        <div class="form__group">
-          <label class="form__label" for="date">Когда летали (дата)</label>
-          <input id="date" class="form__input" type="text" placeholder="10.10.23"/>
-        </div>
-        <div class="form__group">
-          <label class="form__label" for="where">Куда летали (страна и отель)</label>
-          <input id="where" class="form__input" type="text" placeholder="Бали, Hanging Gardens"/>
+        <div class="first__arrow">
+          <h3>Simple Buttons</h3>
+          <button class="green">Normal</button>
+          <button class="red">Normal</button>
         </div>
       </div>
-      <div class="comm">
-        <label class="form__label" for="otzyv">Напишите отзыв</label>
-        <textarea name="otzyv" class="comm__input" placeholder="Текст"></textarea>
+      <div class="second">
+        <h3 class="both__head">Form elements</h3>
+        <form class="second__form">
+          <h3>Input Field</h3>
+          <input type="text" id="inp" placeholder="Normal" />
+        </form>
+        <h3>Dropdown Item</h3>
+        <select class="second__select">
+          <option class="second__select_hidden" selected disabled>Default item</option>
+          <option class="second__select_norm" disabled>Normal</option>
+        </select>
+        <h3>Category Item</h3>
+        <select class="second__select">
+          <option class="second__select_hidden" selected disabled>Category Item</option>
+          <option class="second__select_norm">Normal</option>
+        </select>
       </div>
-      <div class="b">
-        <button class="form__button">отправить <img src="Group 1145.png"/></button>
-      </div>
-    </form>
+    </div>
   </body>
 </html>
